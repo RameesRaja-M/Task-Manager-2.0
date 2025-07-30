@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:5000";
+export const BASE_URL = "https://task-manager-2-heq2.onrender.com";
 
 export const API_PATHS = {
     AUTH: {
