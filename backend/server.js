@@ -20,7 +20,7 @@ const __dirname = path.dirname(__filename)
 // MIDDLEWARE CORS
 app.use(
     cors({
-        origin: process.env.FRONTEND_URL || "",
+        origin: process.env.FRONTEND_URL || "https://task-manager-2-orpin.vercel.app",
         methods: ["POST", "GET", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
         credentials: true
